@@ -28,7 +28,7 @@ const FeaturedCard: React.FC<FeaturedCardProps> = ({ title, description, image }
         className="relative z-10 flex flex-col justify-end items-center font-accentFont h-full p-6 text-white"
       >
         <h3 className="text-3xl font-bold italic pb-2">{title}</h3>
-        <p className="text-md font-semibold mt-2">{description}</p>
+        <p className="text-md font-semibold mb-2 mt-2">{description}</p>
       </motion.div>
     </div>
   );
