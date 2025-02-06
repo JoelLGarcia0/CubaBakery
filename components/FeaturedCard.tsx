@@ -9,7 +9,7 @@ interface FeaturedCardProps {
 
 const FeaturedCard: React.FC<FeaturedCardProps> = ({ title, description, image }) => {
   return (
-    <div className="relative w-full h-[350px] md:h-[400px] rounded-lg transition-transform duration-300 hover:scale-105"
+    <div className="relative w-full h-[350px] md:h-[400px] overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105"
     >
         <Image 
           src={image} 
@@ -22,9 +22,9 @@ const FeaturedCard: React.FC<FeaturedCardProps> = ({ title, description, image }
 
       {/* Text Content with Fade-in Effect */}
       <motion.div 
-        // initial={{ opacity: 0, y: 20 }}
-        // whileHover={{ opacity: 1, y: 0 }}
-        // transition={{ duration: 0.4 }}
+        initial={{ opacity: 0, y: 20 }}
+        whileHover={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3 }}
         className="relative z-10 flex flex-col justify-end items-center font-accentFont h-full p-6 text-white"
       >
         <h3 className="text-3xl font-bold italic pb-2">{title}</h3>
