@@ -1,7 +1,6 @@
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
-import Owner from "@/components/Owner";
 import Head from "next/head";
 import React from 'react'
 

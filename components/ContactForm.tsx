@@ -22,16 +22,17 @@ const ContactForm = () => {
       });
 
       const data = await response.json();
+      console.log(data);
 
       if (response.ok) {
-        setStatus("✅ Message sent successfully!");
+        setStatus("Message sent successfully!");
         setFormData({ name: "", email: "", message: "" }); // Reset form
       } else {
-        setStatus("❌ Failed to send message. Try again.");
+        setStatus("Failed to send message. Try again.");
       }
     } catch (error) {
       console.error("Error:", error);
-      setStatus("❌ Error sending message.");
+      setStatus("Error sending message.");
     }
   };
 

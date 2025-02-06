@@ -1,5 +1,4 @@
 import React from 'react'
-import { AiFillInstagram } from 'react-icons/ai'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
 const Connect = () => {

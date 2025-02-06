@@ -1,5 +1,6 @@
 import { coffee } from '@/public/assests'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
@@ -27,20 +28,20 @@ const About = () => {
           Since 1972, Cuba Bakery has been a beloved neighborhood spot, serving the Homestead community 
           with authentic Cuban flavors. We take pride in making fresh pastries daily, from flaky pastelitos 
           to crispy croquetas, all crafted with time-honored family recipes.
-          Whether you're looking for a quick café cubano, catering for a special event, or delicious Cuban 
-          food by the pound, we've got you covered. Stop by and experience the rich tradition of Cuban baking, 
+          Whether you&apos;re looking for a quick café cubano, catering for a special event, or delicious Cuban 
+          food by the pound, we&apos;ve got you covered. Stop by and experience the rich tradition of Cuban baking, 
           one bite at a time!
         </p>
   
         {/* Button */}
         <div className="mt-10">
-          <a href="/Menu.pdf" target="_blank">
+          <Link href="/Menu.pdf" target="_blank">
           <button 
            className="px-5 py-2 font-bodyFont bg-white text-textLight border-2 border-textBrown font-bold rounded-md 
            hover:bg-textLight hover:text-white hover:border-white transition">
             View Menu
           </button>
-          </a>
+          </Link>
         </div>
       </div>
   

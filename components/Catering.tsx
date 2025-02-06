@@ -1,6 +1,7 @@
 import React from 'react'
 import { catering } from '@/public/assests'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Catering = () => {
   return (
@@ -32,12 +33,12 @@ const Catering = () => {
 
       {/* Button */}
       <div className="mt-20 flex justify-center md:justify-start">
-        <a href="/contact">
+        <Link href="/contact">
         <button className="px-6 py-2 font-bodyFont bg-white text-textLight border-2 border-textBrown font-bold rounded-md 
          hover:bg-textLight hover:text-white hover:border-white transition">
           Contact Us
         </button>
-        </a>
+        </Link>
       </div>
     </div>
 
