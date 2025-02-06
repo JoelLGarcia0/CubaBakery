@@ -22,9 +22,9 @@ const FeaturedCard: React.FC<FeaturedCardProps> = ({ title, description, image }
 
       {/* Text Content with Fade-in Effect */}
       <motion.div 
-        initial={{ opacity: 0, y: 20 }}
-        whileHover={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
+        // initial={{ opacity: 0, y: 20 }}
+        // whileHover={{ opacity: 1, y: 0 }}
+        // transition={{ duration: 0.4 }}
         className="relative z-10 flex flex-col justify-end items-center font-accentFont h-full p-6 text-white"
       >
         <h3 className="text-3xl font-bold italic pb-2">{title}</h3>
