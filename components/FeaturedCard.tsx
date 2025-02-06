@@ -9,7 +9,7 @@ interface FeaturedCardProps {
 
 const FeaturedCard: React.FC<FeaturedCardProps> = ({ title, description, image }) => {
   return (
-    <div className="relative w-full h-[350px] md:h-[400px] overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105"
+    <div className="relative w-full h-[350px] md:h-[400px] rounded-lg transition-transform duration-300 hover:scale-105"
     >
         <Image 
           src={image} 
