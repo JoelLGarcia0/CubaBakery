@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[60vh] py-10 flex items-center justify-center text-white">
+    <section className="relative w-full h-[90vh] py-10 flex items-center justify-center text-white">
       {/* Background Image */}
       <div className="absolute inset-0">
       <Image 
