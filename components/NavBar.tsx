@@ -22,7 +22,7 @@ const NavBar: React.FC = () => {
           className="relative text-white font-semibold after:block after:h-[2px] after:w-0
            after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full">HOME</Link>
           <Link
-          href="/Menu.pdf" target="_blank" rel="noopener noreferrer"
+          href="/menu"
           className="relative text-white font-semibold after:block after:h-[2px] after:w-0
            after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full">MENU</Link>
         </div>
@@ -83,7 +83,7 @@ const NavBar: React.FC = () => {
          after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
         onClick={() => setIsOpen(false)}>HOME</Link>
         <Link 
-        href="/Menu.pdf" target="_blank"
+        href="/menu"
         className="relative text-offWhite font-semibold after:block after:h-[2px] after:w-0
          after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
         onClick={() => setIsOpen(false)}>MENU</Link>

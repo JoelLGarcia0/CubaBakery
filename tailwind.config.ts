@@ -49,15 +49,6 @@ export default {
         darkYellow: "#E8B209",
         offWhite: "#FFFBEF"
         
-
-
-        // yellow #E8B209
-        // black grey #0B0B0B
-        // darkGrey #282828
-        // off white #FFFBEF
-
-        // background image 
-        
       },
     },
   },

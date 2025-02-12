@@ -1,5 +1,5 @@
 import React from 'react'
-import { hero } from '@/public/assests'
+import { hero, hero2, line } from '@/public/assests'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
@@ -10,15 +10,17 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
       <Image 
-        src={hero} // Update with your actual image path
-        alt="Freshly Baked Cuban Bread"
+        src={hero2} // Update with your actual image path
+        alt="Cuban Food"
         fill
-        style={{ objectFit: "cover", objectPosition: "bottom" }}
+        style={{ 
+          objectFit: "cover",
+          objectPosition: "center" }}
         quality={100}
         priority
         />
         {/* Overlay for readability */}
-        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
 
       {/* Content */}
@@ -30,7 +32,13 @@ const Hero = () => {
         className="text-3xl md:text-5xl font-titleFont text-center font-extrabold uppercase">
           Pastelitos and Cuban Bread Baked Fresh Every Day!
         </motion.h1>
-        <p className="text-xlg md:text-2xl font-bodyFont text-center italic mt-4">
+        <Image
+        src={line}
+        alt="line seperator" 
+        width = {400}
+        className='mx-auto -mb-8 -mt-4 items-center'
+        />
+        <p className="text-xlg md:text-2xl font-bodyFont text-center italic">
           Homemade recipes, authentic flavors, and warm smiles.
         </p>
 

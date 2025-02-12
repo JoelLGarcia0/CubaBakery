@@ -24,7 +24,7 @@ const FindUs = () => {
 
         {/* Right: Business Details (50% of container) */}
         <div className="flex flex-col justify-center px-20 py-8">
-          <h2 className="text-2xl md:text-3xl font-semibold font-headerFont text-left underline decoration-2 underline-offset-4 text-darkYellow mb-8">
+          <h2 className="text-3xl md:text-4xl font-semibold font-headerFont text-left underline decoration-2 underline-offset-4 text-darkYellow mb-8">
             WHERE CAN YOU FIND US?
           </h2>
           <p className="text-md font-bodyFont text-offWhite leading-relaxed text-left mb-4">
@@ -38,7 +38,7 @@ const FindUs = () => {
           </p>
 
           {/* Hours Section */}
-          <h3 className="text-2xl md:text-2xl font-semibold font-headerFont underline decoration-2 underline-offset-4 text-left text-darkYellow mt-6 mb-4">
+          <h3 className="text-3xl md:text-4xl font-semibold font-headerFont underline decoration-2 underline-offset-4 text-left text-darkYellow mt-6 mb-4">
             HOURS
           </h3>
           <p className="text-md font-bodyFont text-offWhite leading-relaxed text-left">M - Tu 6:00am - 5:00pm</p>
