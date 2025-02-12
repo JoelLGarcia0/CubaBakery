@@ -1,5 +1,5 @@
 import React from 'react'
-import { hero, hero2, line } from '@/public/assests'
+import {hero2, line } from '@/public/assests'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
