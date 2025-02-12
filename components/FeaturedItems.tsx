@@ -21,18 +21,18 @@ const FeaturedItems = () => {
   ];
 
   return (
-    <section className="w-full max-w-containerSmall bg-white px-6">
+    <section className="w-full max-w-contentContainer bg-blackGrey px-6">
       <div className="flex items-center justify-center w-full mb-8">
     {/* Left Line */}
-    <span className="md:block flex-grow h-[2px] bg-textBrown mr-4"></span>
+    <span className="md:block flex-grow h-[2px] bg-darkYellow mr-4"></span>
 
     {/* Section Title */}
-    <h2 className=" text-lg md:text-2xl lg:text-3xl font-semibold font-titleFont text-center text-textBrown uppercase tracking-wide">
+    <h2 className=" text-lg md:text-2xl lg:text-3xl font-bold font-headerFont text-center text-darkYellow  uppercase tracking-wide">
       FEATURED ITEMS
     </h2>
 
     {/* Right Line */}
-    <span className=" md:block flex-grow h-[2px] bg-textBrown ml-4"></span>
+    <span className=" md:block flex-grow h-[2px] bg-darkYellow  ml-4"></span>
   </div>
 
       <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">

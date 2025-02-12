@@ -13,7 +13,7 @@ const contact = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/logo.ico" />
     </Head>
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-blackGrey">
       <NavBar />
       <main className="flex-grow">
         {/* container after NavBar */}

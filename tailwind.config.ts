@@ -26,8 +26,9 @@ export default {
 
       },
       fontFamily: {
-        bodyFont: ["Afacad", "sans-serif"],
+        bodyFont: ["Bebas Neue", "sans-serif"],
         titleFont: ["Montserrat", "sans-serif"],
+        headerFont:["Bebas Neue, sans-serif"],
         accentFont: ["Dancing Script", "sans-serif"]
 
 
@@ -41,8 +42,22 @@ export default {
         textLight: '#A85D33',
         textBlack: '#000000',
         textBeige: '#D4A373',
-        hoverColor: "rgba(178, 138, 0, 0.1)",
-        lightColor: "#FBF6F1"
+        hoverColor: "#FAD02C",
+        lightColor: "#FBF6F1",
+        darkGrey: "#282828",
+        blackGrey:"#0B0B0B",
+        darkYellow: "#E8B209",
+        offWhite: "#FFFBEF"
+        
+
+
+        // yellow #E8B209
+        // black grey #0B0B0B
+        // darkGrey #282828
+        // off white #FFFBEF
+
+        // background image 
+        
       },
     },
   },

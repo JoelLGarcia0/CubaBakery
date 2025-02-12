@@ -3,8 +3,8 @@ import React from 'react'
 
 const FindUs = () => {
   return (
-    <section id="find-us" className="w-full max-w-containerSmall bg-white flex justify-center px-6 scroll-mt-20">
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 rounded-lg bg-lightColor overflow-hidden">
+    <section id="find-us" className="w-full max-w-contentContainer bg-blackGrey flex justify-center px-6 scroll-mt-20">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 rounded-lg bg-darkGrey overflow-hidden">
         
         {/* Left: Google Map Embed (50% of container) */}
         <div className="relative w-full h-[400px] md:h-[500px]">
@@ -24,26 +24,26 @@ const FindUs = () => {
 
         {/* Right: Business Details (50% of container) */}
         <div className="flex flex-col justify-center px-20 py-8">
-          <h2 className="text-xl md:text-2xl font-semibold font-titleFont text-left underline decoration-2 underline-offset-4 text-textBrown mb-8">
+          <h2 className="text-2xl md:text-3xl font-semibold font-headerFont text-left underline decoration-2 underline-offset-4 text-darkYellow mb-8">
             WHERE CAN YOU FIND US?
           </h2>
-          <p className="text-md font-bodyFont text-textBrown leading-relaxed text-left mb-4">
+          <p className="text-md font-bodyFont text-offWhite leading-relaxed text-left mb-4">
             1641 NE 8th St, Homestead, FL, 33033
           </p>
-          <p className="text-md font-bodyFont text-textBrown leading-relaxed text-left mb-4 font-semibold">
+          <p className="text-md font-bodyFont text-offWhite leading-relaxed text-left mb-4 font-semibold">
             (305)-245-2724
           </p>
-          <p className="text-md font-bodyFont text-textBrown leading-relaxed text-left mb-4">
+          <p className="text-md font-bodyFont text-offWhite leading-relaxed text-left mb-4">
             orders.cubabakery@gmail.com
           </p>
 
           {/* Hours Section */}
-          <h3 className="text-xl md:text-xl font-semibold font-titleFont underline decoration-2 underline-offset-4 text-left text-textBrown mt-6 mb-4">
+          <h3 className="text-2xl md:text-2xl font-semibold font-headerFont underline decoration-2 underline-offset-4 text-left text-darkYellow mt-6 mb-4">
             HOURS
           </h3>
-          <p className="text-md font-bodyFont text-textBrown leading-relaxed text-left">M - Tu 6:00am - 5:00pm</p>
-          <p className="text-md font-bodyFont text-textBrown leading-relaxed text-left">W - Sat 6:00am - 6:00pm</p>
-          <p className="text-md font-bodyFont text-textBrown leading-relaxed text-left">Sun 6:00am - 3:00pm</p>
+          <p className="text-md font-bodyFont text-offWhite leading-relaxed text-left">M - Tu 6:00am - 5:00pm</p>
+          <p className="text-md font-bodyFont text-offWhite leading-relaxed text-left">W - Sat 6:00am - 6:00pm</p>
+          <p className="text-md font-bodyFont text-offWhite leading-relaxed text-left">Sun 6:00am - 3:00pm</p>
         </div>
       </div>
     </section>

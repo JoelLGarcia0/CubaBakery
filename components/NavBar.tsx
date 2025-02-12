@@ -9,7 +9,7 @@ const NavBar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md font-bodyFont fixed top-0 left-0 w-full z-50">
+    <nav className="bg-blackGrey shadow-md font-bodyFont fixed top-0 left-0 w-full z-50">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex justify-between items-center h-20 relative">
       {/* Desktop Navigation */}
@@ -19,12 +19,12 @@ const NavBar: React.FC = () => {
         <div className="flex items-center space-x-10">
           <Link 
           href="/" 
-          className="relative text-textBrown font-semibold after:block after:h-[2px] after:w-0
-           after:bg-textBrown after:transition-all after:duration-300 after:content-[''] hover:after:w-full">HOME</Link>
+          className="relative text-white font-semibold after:block after:h-[2px] after:w-0
+           after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full">HOME</Link>
           <Link
           href="/Menu.pdf" target="_blank" rel="noopener noreferrer"
-          className="relative text-textBrown font-semibold after:block after:h-[2px] after:w-0
-           after:bg-textBrown after:transition-all after:duration-300 after:content-[''] hover:after:w-full">MENU</Link>
+          className="relative text-white font-semibold after:block after:h-[2px] after:w-0
+           after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full">MENU</Link>
         </div>
 
         {/* Centered Logo */}
@@ -44,12 +44,12 @@ const NavBar: React.FC = () => {
         <div className="flex items-center space-x-8">
           <Link 
           href="/aboutus" 
-          className="relative text-textBrown font-semibold after:block after:h-[2px] after:w-0
-           after:bg-textBrown after:transition-all after:duration-300 after:content-[''] hover:after:w-full">ABOUT US</Link>
+          className="relative text-white font-semibold after:block after:h-[2px] after:w-0
+           after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full">ABOUT US</Link>
           <Link 
           href="/contact" 
-          className="relative text-textBrown font-semibold after:block after:h-[2px] after:w-0
-           after:bg-textBrown after:transition-all after:duration-300 after:content-[''] hover:after:w-full">CONTACT</Link>
+          className="relative text-white font-semibold after:block after:h-[2px] after:w-0
+           after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full">CONTACT</Link>
         </div>
 
       </div>
@@ -67,7 +67,7 @@ const NavBar: React.FC = () => {
           />
         </Link>
         <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
-          {isOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
+          {isOpen ? <XMarkIcon className="h-6 w-6 text-white" /> : <Bars3Icon className="h-6 w-6 text-white" />}
         </button>
       </div>
     </div>
@@ -75,27 +75,27 @@ const NavBar: React.FC = () => {
 
   {/* Mobile Menu Dropdown */}
   {isOpen && (
-    <div className="md:hidden absolute top-20 left-0 w-full py-4 border-textBrown border-t-2 bg-white shadow-md animate-fadeIn transition-transform">
+    <div className="md:hidden absolute top-20 left-0 w-full py-4 border-darkYellow border-t-2 bg-blackGrey shadow-md animate-fadeIn transition-transform">
       <div className="flex flex-col items-center space-y-2 p-4">
         <Link 
         href="/" 
-        className="relative text-textBrown font-semibold after:block after:h-[2px] after:w-0
-         after:bg-textBrown after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
+        className="relative text-offWhite font-semibold after:block after:h-[2px] after:w-0
+         after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
         onClick={() => setIsOpen(false)}>HOME</Link>
         <Link 
         href="/Menu.pdf" target="_blank"
-        className="relative text-textBrown font-semibold after:block after:h-[2px] after:w-0
-         after:bg-textBrown after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
+        className="relative text-offWhite font-semibold after:block after:h-[2px] after:w-0
+         after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
         onClick={() => setIsOpen(false)}>MENU</Link>
         <Link 
         href="/aboutus" 
-        className="relative text-textBrown font-semibold after:block after:h-[2px] after:w-0
-         after:bg-textBrown after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
+        className="relative text-offWhite font-semibold after:block after:h-[2px] after:w-0
+         after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
         onClick={() => setIsOpen(false)}>ABOUT US</Link>
         <Link 
         href="/contact" 
-        className="relative text-textBrown font-semibold after:block after:h-[2px] after:w-0
-         after:bg-textBrown after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
+        className="relative text-offWhite font-semibold after:block after:h-[2px] after:w-0
+         after:bg-darkYellow after:transition-all after:duration-300 after:content-[''] hover:after:w-full" 
         onClick={() => setIsOpen(false)}>CONTACT</Link>
       </div>
     </div>

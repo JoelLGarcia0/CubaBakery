@@ -5,8 +5,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id="about" className="w-full max-w-containerSmall  bg-white flex justify-center px-6 scroll-mt-20 ">
-    <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 rounded-lg bg-lightColor overflow-hidden">
+    <section id="about" className="w-full max-w-contentContainer  bg-blackGrey flex justify-center px-6 scroll-mt-20 ">
+    <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 rounded-lg bg-darkGrey overflow-hidden">
       
       {/* Left: Image - 50% of the container */}
       <div className="relative w-full h-[400px] md:h-[500px]">
@@ -20,26 +20,31 @@ const About = () => {
       </div>
   
       {/* Right: Text Content - 50% of the container */}
-      <div className="flex flex-col justify-center items-center px-6 md:px-12 py-8">
-        <h2 className="text-xl md:text-2xl font-bold font-titleFont underline decoration-2 underline-offset-4 text-center text-textBrown mb-8">
+      <div className="flex flex-col justify-center items-center px-4 py-8">
+        <h2 className="text-2xl md:text-3xl font-bold font-headerFont underline decoration-2 underline-offset-7 text-center text-darkYellow mb-4">
           OUR STORY
         </h2>
-        <p className="text-sm font-bodyFont text-textBrown leading-relaxed text-center mb-4">
-          Since 1972, Cuba Bakery has been a beloved neighborhood spot, serving the Homestead community 
-          with authentic Cuban flavors. We take pride in making fresh pastries daily, from flaky pastelitos 
-          to crispy croquetas, all crafted with time-honored family recipes.
-          Whether you&apos;re looking for a quick café cubano, catering for a special event, or delicious Cuban 
-          food by the pound, we&apos;ve got you covered. Stop by and experience the rich tradition of Cuban baking, 
-          one bite at a time!
+        <p className="text-xs font-titleFont text-offWhite leading-relaxed text-center mt-2 mb-4">
+        Cuba Bakery is more than just a bakery—it&#39;s the story of a family&#39;s journey, resilience, and love
+        for tradition. Our story began in 1972, when our family, filled with hope and dreams for a new
+        life, opened our first bakery in New Jersey after leaving Cuba. Fueled by a passion for
+        preserving our heritage, we brought the rich flavors of Cuba to the community. Years later, we
+        brought our roots further south to Miami, where Cuba Bakery continues to thrive as a
+        cornerstone of Cuban culture and cuisine.
         </p>
+        <p className="text-xs font-titleFont text-offWhite leading-relaxed text-center mb-2">
+        Today, we proudly offer a taste of home with our authentic Cuban pastries, savory dishes, and
+        handcrafted cakes, while staying true to the recipes and traditions that started it all.
+        </p>
+        
   
         {/* Button */}
-        <div className="mt-10">
+        <div className="mt-4">
           <Link href="/Menu.pdf" target="_blank">
           <button 
-           className="px-5 py-2 font-bodyFont bg-white text-textLight border-2 border-textBrown font-bold rounded-md 
-           hover:bg-textLight hover:text-white hover:border-white transition">
-            View Menu
+           className="px-5 py-2 font-bodyFont bg-blackGrey text-white border-2
+           border-white font-bold rounded-md hover:bg-hoverColor hover:text-white hover:border-white transition">
+            Learn More
           </button>
           </Link>
         </div>
