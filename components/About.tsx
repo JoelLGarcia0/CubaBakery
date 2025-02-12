@@ -20,8 +20,8 @@ const About = () => {
       </div>
   
       {/* Right: Text Content - 50% of the container */}
-      <div className="flex flex-col justify-center items-center px-4 py-8">
-        <h2 className="text-2xl md:text-3xl font-bold font-headerFont underline decoration-2 underline-offset-7 text-center text-darkYellow mb-4">
+      <div className="flex flex-col justify-center items-center px-4 py-6">
+        <h2 className="text-2xl md:text-3xl font-bold font-headerFont underline decoration-2 underline-offset-7 text-center text-darkYellow  mb-8">
           OUR STORY
         </h2>
         <p className="text-xs font-titleFont text-offWhite leading-relaxed text-center mt-2 mb-4">
@@ -40,7 +40,7 @@ const About = () => {
   
         {/* Button */}
         <div className="mt-4">
-          <Link href="/Menu.pdf" target="_blank">
+          <Link href="/aboutus" target="_blank">
           <button 
            className="px-5 py-2 font-bodyFont bg-blackGrey text-white border-2
            border-white font-bold rounded-md hover:bg-hoverColor hover:text-white hover:border-white transition">

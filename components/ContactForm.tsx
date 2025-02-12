@@ -37,7 +37,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="w-full max-w-containerSmall flex justify-center py-12 px-6 md:px-12 scroll-mt-20">
+    <section id="contact" className="w-full max-w-contentContainer flex justify-center py-12 px-6 md:px-12 scroll-mt-20">
       <div className="max-w-3xl w-full bg-darkGrey p-8 rounded-lg">
         {/* Contact Title */}
         <h2 className="text-xl md:text-2xl font-semibold font-headerFont mb-10 text-center text-darkYellow">CONTACT US</h2>

@@ -4,7 +4,7 @@ import { german } from "@/public/assests";
 
 const Owner = () => {
   return (
-    <section id="about" className="w-full max-w-containerSmall bg-black flex justify-center py-12 px-6 md:px-12 scroll-mt-20">
+    <section id="about" className="w-full max-w-contentContainer bg-black flex justify-center py-12 px-6 md:px-12 scroll-mt-20">
       <div className="max-w-6xl w-full rounded-lg bg-darkGrey overflow-hidden p-8 flex flex-col items-center">
         
         {/* Titles */}
@@ -24,7 +24,7 @@ const Owner = () => {
           <Image 
             src={german} 
             alt="German Perez"
-            layout="fill"
+            fill
             objectFit="cover"
             className="rounded-full"
           />

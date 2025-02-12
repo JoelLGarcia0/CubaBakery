@@ -28,7 +28,7 @@ const NavBar: React.FC = () => {
         </div>
 
         {/* Centered Logo */}
-        <div className="h-full flex-shrink-0 flex items-center justify-center">
+        <div className="h-full flex-shrink-0 flex items-center justify-center mb-2">
           <Link href="/">
             <Image 
               src={logo} 
