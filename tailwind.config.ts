@@ -44,7 +44,7 @@ export default {
         textBeige: '#D4A373',
         hoverColor: "#FAD02C",
         lightColor: "#FBF6F1",
-        darkGrey: "#282828",
+        darkGrey: "#171717",
         blackGrey:"#0B0B0B",
         darkYellow: "#E8B209",
         offWhite: "#FFFBEF"

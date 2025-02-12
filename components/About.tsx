@@ -6,7 +6,7 @@ import React from 'react'
 const About = () => {
   return (
     <section id="about" className="w-full max-w-contentContainer bg-blackGrey flex justify-center px-6 scroll-mt-20">
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] rounded-lg bg-darkGrey overflow-hidden relative">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 rounded-lg bg-darkGrey overflow-hidden relative">
         
         {/* Left: Image */}
         <div className="relative w-full h-[400px] md:h-[500px]">
@@ -18,11 +18,8 @@ const About = () => {
           />
         </div>
 
-        {/* Border - Hidden on small screens, shown between sections on medium and larger */}
-        <div className="hidden md:block  h-full bg-transparent"></div>
-
         {/* Right: Text Content */}
-        <div className="flex flex-col justify-center items-center px-4 py-6">
+        <div className="w-full flex flex-col justify-center items-center px-4 py-6">
           <h2 className="text-3xl md:text-4xl font-bold font-headerFont underline decoration-2 underline-offset-7 text-center text-darkYellow mb-8">
             OUR STORY
           </h2>
@@ -50,9 +47,6 @@ const About = () => {
             </Link>
           </div>
         </div>
-
-        {/* Border for small screens - Placed at the bottom */}
-        <div className="md:hidden w-full h-[3px] border-t border-dotted border-white/50 mt-4"></div>
       </div>
     </section>
   )

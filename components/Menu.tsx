@@ -21,7 +21,7 @@ const Menu = () => {
       </div>
 
       {/* Scrollable Menu Content */}
-      <div className="relative z-10 w-full max-w-contentContainer mx-auto px-6 py-12 bg-black bg-opacity-70 rounded-lg shadow-lg h-[100vh] overflow-auto">
+      <div className="relative z-10 w-full max-w-contentContainer mx-auto px-6 py-12 bg-black bg-opacity-70 h-[100vh] overflow-auto">
         
         <h2 className="text-3xl md:text-4xl font-bodyFont text-darkYellow font-bold text-center mb-2">Family Specials</h2>
         {/* Line Seperator */}
@@ -36,7 +36,7 @@ const Menu = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           
           {/* Column 1 */}
-          <div className="p-6">
+          <div className="px-6">
             <h3 className="text-3xl font-bodyFont text-offWhite">Especiale de la Casa</h3>
             <h3 className="text-2xl font-bodyFont text-offWhite">SPECIAL #1</h3>
             <p className="text-2xl font-bodyFont text-offWhite mb-2">$159</p>
@@ -49,7 +49,7 @@ const Menu = () => {
           </div>
 
           {/* Column 2 */}
-          <div className="p-6">
+          <div className="px-6">
             <h3 className="text-3xl font-bodyFont text-offWhite">NOCHE CARIBEÑA</h3>
             <h3 className="text-2xl font-bodyFont text-offWhite">SPECIAL #2</h3>
             <p className="text-2xl font-bodyFont text-offWhite mb-2">$211</p>
@@ -63,7 +63,7 @@ const Menu = () => {
           </div>
 
           {/* Column 3 */}
-          <div className="p-6">
+          <div className="px-6">
             <h3 className="text-3xl font-bodyFont text-offWhite">El Habanero</h3>
             <h3 className="text-2xl font-bodyFont text-offWhite">SPECIAL #3</h3>
             <p className="text-2xl font-bodyFont text-offWhite mb-2">$211</p>
