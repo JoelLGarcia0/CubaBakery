@@ -6,7 +6,6 @@ import FindUs from "@/components/FindUs";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
-import Title from "@/components/Title";
 import Head from "next/head";
 
 export default function Home() {
@@ -24,7 +23,6 @@ export default function Home() {
           {/* container after NavBar */}
           <div className="w-full flex flex-col items-center gap-10 mb-10 pt-20">
             <Hero />
-            {/* <Title /> */}
             <About />
             <Catering />
             <FeaturedItems />
