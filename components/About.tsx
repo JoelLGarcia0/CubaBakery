@@ -41,7 +41,7 @@ const About = () => {
             <Link href="/aboutus" target="_blank">
               <button 
                 className="px-5 py-2 font-bodyFont bg-blackGrey text-white border-2
-                border-white font-bold rounded-md hover:bg-hoverColor hover:text-black hover:border-white transition">
+                border-white font-bold rounded-md hover:bg-darkYellow hover:text-black hover:border-white transition">
                 Learn More
               </button>
             </Link>

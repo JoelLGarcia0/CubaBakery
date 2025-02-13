@@ -35,7 +35,7 @@ const Catering = () => {
       <div className="mt-20 flex justify-center md:justify-start">
         <Link href="/contact">
         <button className="px-5 py-2 font-bodyFont bg-blackGrey text-white border-2
-           border-white font-bold rounded-md hover:bg-hoverColor hover:text-black hover:border-white transition">
+           border-white font-bold rounded-md hover:bg-darkYellow hover:text-black hover:border-white transition">
           Contact Us
         </button>
         </Link>

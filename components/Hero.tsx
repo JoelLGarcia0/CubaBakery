@@ -47,7 +47,7 @@ const Hero = () => {
       <Link 
       href="https://www.ubereats.com/store/cuba-bakery/K1WPcvalXteGRBlsozJ1jA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkVkaWZpY2lvJTIwVG9ycmUlMjBsb3MlMjBQYXJyYSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpaN0lXSUlHQ1JvNFIxd1BSMXA5TXhZVSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E2LjIwMDA5ODQ5OTk5OTk5OCUyQyUyMmxvbmdpdHVkZSUyMiUzQS03NS41NjIxODE1JTdE" target="_blank">
       <button className="px-5 py-2 font-bodyFont bg-blackGrey text-darkYellow border-2
-       border-white font-semibold rounded-md hover:bg-hoverColor hover:text-blackGrey hover:border-white transition">
+       border-white font-semibold rounded-md hover:bg-darkYellow hover:text-blackGrey hover:border-white transition">
         Order Now
       </button>
       </Link>
