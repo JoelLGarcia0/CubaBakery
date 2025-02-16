@@ -1,7 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { Resend } from "resend";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import nodemailer from "nodemailer"
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== "POST") {
@@ -10,17 +8,29 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const { name, email, message } = req.body;
 
-  try {
-    await resend.emails.send({
-      from: "onboarding@resend.dev", // Must be verified in Resend
-      to: "joel.lgarcia1992@gmail.com", // 📩 Your Gmail
-      subject: `New Inquiry from ${name}`,
-      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
-    });
+  // create Nodemailer transporter
 
-    return res.status(200).json({ message: "Message sent successfully!" });
-  } catch (error) {
-    console.error("Error sending email:", error);
-    return res.status(500).json({ error: "Failed to send message." });
+  const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user:process.env.EMAIL_USER, //Gmail Address
+        pass:process.env.EMAIL_PASS, // Use App Password 
+      },
+    })
+
+    const mailOptions = {
+      from: `"${name}" <${process.env.EMAIL_USER}>`,
+      to: "joel.lgarcia1992@gmail.com", // Your email where you receive messages
+      subject: `New Inquiry from ${name}`,
+      text:  `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+
+    }
+
+    try {
+      await transporter.sendMail(mailOptions);
+      return res.status(200).json({ message: "Message sent successfully, Our team will reach out to you shortly!" });
+    } catch (error) {
+      console.error("Error sending email:", error);
+      return res.status(500).json({ error: "Failed to send message." });
+    }
   }
-}
