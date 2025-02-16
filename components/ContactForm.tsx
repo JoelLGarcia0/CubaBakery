@@ -25,7 +25,7 @@ const ContactForm = () => {
       console.log(data);
 
       if (response.ok) {
-        setStatus("Message sent successfully!");
+        setStatus("Message sent successfully, Our team will reach out to you shortly!");
         setFormData({ name: "", email: "", message: "" }); // Reset form
       } else {
         setStatus("Failed to send message. Try again.");
