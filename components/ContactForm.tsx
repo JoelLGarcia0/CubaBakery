@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
   const [status, setStatus] = useState("");
 
   // Handle Input Change
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -25,7 +31,9 @@ const ContactForm = () => {
       console.log(data);
 
       if (response.ok) {
-        setStatus("Message sent successfully, Our team will reach out to you shortly!");
+        setStatus(
+          "Message sent successfully, Our team will reach out to you shortly!"
+        );
         setFormData({ name: "", email: "", message: "" }); // Reset form
       } else {
         setStatus("Failed to send message. Try again.");
@@ -37,10 +45,15 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="w-full max-w-contentContainer flex justify-center py-6 px-6 md:px-12 scroll-mt-20">
+    <section
+      id="contact"
+      className="w-full max-w-contentContainer flex justify-center py-6 px-6 md:px-12 scroll-mt-20"
+    >
       <div className="max-w-3xl w-full bg-darkGrey p-8 rounded-lg">
         {/* Contact Title */}
-        <h2 className="text-xl md:text-2xl font-semibold font-headerFont mb-10 text-center text-darkYellow">CONTACT US</h2>
+        <h2 className="text-xl md:text-2xl font-semibold font-headerFont mb-10 text-center text-darkYellow">
+          CONTACT US
+        </h2>
 
         {/* Email Address Styled */}
         <p className="text-center text-lg uppercase font-bodyFont tracking-wide text-offWhite py-4 mb-4">
@@ -48,14 +61,18 @@ const ContactForm = () => {
         </p>
 
         {/* Subtext */}
-        <p className="text-center text-md font-bodyFont text-offWhite fW mt-1">Message me for any and all inquiries!</p>
+        <p className="text-center text-md font-bodyFont text-offWhite fW mt-1">
+          Message me for any and all inquiries!
+        </p>
 
         {/* Form */}
         <form onSubmit={handleSubmit} className="mt-6 space-y-6">
           {/* Name & Email Fields */}
           <div className="flex flex-col md:flex-row gap-6">
             <div className="w-full">
-              <label className="block text-sm font-bodyFont font-semibold text-darkYellow">Name</label>
+              <label className="block text-sm font-bodyFont font-semibold text-darkYellow">
+                Name
+              </label>
               <input
                 type="text"
                 name="name"
@@ -66,7 +83,9 @@ const ContactForm = () => {
               />
             </div>
             <div className="w-full">
-              <label className="block text-sm font-bodyFont font-semibold text-darkYellow">Email</label>
+              <label className="block text-sm font-bodyFont font-semibold text-darkYellow">
+                Email
+              </label>
               <input
                 type="email"
                 name="email"
@@ -80,7 +99,9 @@ const ContactForm = () => {
 
           {/* Message Input */}
           <div>
-            <label className="block text-sm font-semibold font-bodyFont text-darkYellow">Message</label>
+            <label className="block text-sm font-semibold font-bodyFont text-darkYellow">
+              Message
+            </label>
             <textarea
               name="message"
               required
@@ -105,7 +126,9 @@ const ContactForm = () => {
         </form>
 
         {/* Status Message */}
-        {status && <p className="text-center text-sm mt-4 text-offWhite">{status}</p>}
+        {status && (
+          <p className="text-center text-sm mt-4 text-offWhite">{status}</p>
+        )}
       </div>
     </section>
   );
