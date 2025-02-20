@@ -65,6 +65,12 @@ const ContactForm = () => {
           Message me for any and all inquiries!
         </p>
 
+        <p className="text-center text-md font-bodyFont text-offWhite fW mt-3">
+          Call{" "}
+          <span className=" font-bold text-darkYellow">(305)-245-2724</span> for
+          more information
+        </p>
+
         {/* Form */}
         <form onSubmit={handleSubmit} className="mt-6 space-y-6">
           {/* Name & Email Fields */}
