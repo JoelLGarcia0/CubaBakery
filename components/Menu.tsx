@@ -478,7 +478,7 @@ const Menu = () => {
               Ensalada Caesar
             </h3>
             <h2 className="text-xl font-bodyFont text-offWhite">
-              Caeser Salad
+              Caesar Salad
             </h2>
             <ul className="mt-2 font-titleFont italic text-offWhite text-sm">
               <li>Bandeja Pequena / Half Pan $20</li>
