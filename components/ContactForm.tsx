@@ -67,7 +67,7 @@ const ContactForm = () => {
 
         <p className="text-center text-lg font-bodyFont text-offWhite fW mt-3">
           Call{" "}
-          <a href="tel:+3052452724" className=" font-bold text-darkYellow">
+          <a href="tel:3052452724" className=" font-bold text-darkYellow">
             (305)-245-2724
           </a>{" "}
           <br /> for more information
