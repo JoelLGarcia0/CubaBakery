@@ -45,13 +45,36 @@ const Menu = () => {
             </h3>
             <h3 className="text-2xl font-bodyFont text-offWhite">SPECIAL #1</h3>
             <p className="text-2xl font-bodyFont text-offWhite mb-2">$159</p>
-            <ul className=" mt-2 font-titleFont italic text-offWhite text-sm">
+            <ul className=" mt-2 font-titleFont text-offWhite text-sm list-disc font-semibold">
               <li>
-                Arroz Imperial (Bandeja Grande) / Imperial Rice (Full Pan)
+                Arroz Imperial (Bandeja Grande) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Imperial Rice (Full Pan)
+                </span>
               </li>
-              <li>Maduros (Bandeja Pequena) / Plantains (Half Pan)</li>
-              <li>Ensalada (Bandeja Pequena) / Salad (Half Pan)</li>
-              <li>25 Panecitos Cubanos / 25 Cuban Dinner Rolls</li>
+              <li>
+                Maduros (Bandeja Pequena)
+                <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Plantains (Half Pan)
+                </span>
+              </li>
+              <li>
+                Ensalada (Bandeja Pequena) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Salad (Half Pan)
+                </span>
+              </li>
+              <li>
+                25 Panecitos Cubanos <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  25 Cuban Dinner Rolls
+                </span>
+              </li>
             </ul>
           </div>
 
@@ -62,12 +85,42 @@ const Menu = () => {
             </h3>
             <h3 className="text-2xl font-bodyFont text-offWhite">SPECIAL #2</h3>
             <p className="text-2xl font-bodyFont text-offWhite mb-2">$211</p>
-            <ul className="mt-2 font-titleFont italic text-offWhite text-sm">
-              <li>Lechon Asado (Bandeja Grande) / Roast Pig (Full Pan)</li>
-              <li>Congri (Bandeja Grande) / Congri (Full Pan)</li>
-              <li>Yuca (Bandeja Pequena) / Yuca (Half Pan)</li>
-              <li>Ensalada Verde (Bandeja Pequena) / Green Salad (Half Pan)</li>
-              <li>25 Panecitos Cubanos / 25 Cuban Dinner Rolls</li>
+            <ul className="mt-2 font-titleFont text-offWhite text-sm list-disc font-semibold">
+              <li>
+                Lechon Asado (Bandeja Grande) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Roast Pig (Full Pan){" "}
+                </span>
+              </li>
+              <li>
+                Congri (Bandeja Grande) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Congri (Full Pan)
+                </span>
+              </li>
+              <li>
+                Yuca (Bandeja Pequena) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Yuca (Half Pan)
+                </span>
+              </li>
+              <li>
+                Ensalada (Bandeja Pequena) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Salad (Half Pan){" "}
+                </span>
+              </li>
+              <li>
+                25 Panecitos Cubanos <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  25 Cuban Dinner Rolls
+                </span>
+              </li>
             </ul>
           </div>
 
@@ -78,11 +131,36 @@ const Menu = () => {
             </h3>
             <h3 className="text-2xl font-bodyFont text-offWhite">SPECIAL #3</h3>
             <p className="text-2xl font-bodyFont text-offWhite mb-2">$211</p>
-            <ul className="mt-2 font-titleFont italic text-offWhite text-sm">
-              <li>Ropa Vieja (Bandeja Grande) / Shredded Beef (Full Pan)</li>
-              <li>Arroz Blanco (Bandeja Grande) / White Rice (Full Pan)</li>
-              <li>Maduros (Bandeja Pequena) / Plantains (Half Pan)</li>
-              <li>25 Panecitos Cubanos / 25 Cuban Dinner Rolls</li>
+            <ul className="mt-2 font-titleFont text-offWhite text-sm list-disc font-semibold">
+              <li>
+                Ropa Vieja (Bandeja Grande) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Shredded Beef (Full Pan){" "}
+                </span>
+              </li>
+              <li>
+                Arroz Blanco (Bandeja Grande) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  White Rice (Full Pan)
+                </span>
+              </li>
+              <li>
+                Maduros (Bandeja Pequena)
+                <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Plantains (Half Pan)
+                </span>
+              </li>
+              <li>
+                25 Panecitos Cubanos <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  25 Cuban Dinner Rolls{" "}
+                </span>
+              </li>
             </ul>
           </div>
 
@@ -93,15 +171,42 @@ const Menu = () => {
             </h3>
             <h3 className="text-2xl font-bodyFont text-offWhite">SPECIAL #4</h3>
             <p className="text-2xl font-bodyFont text-offWhite mb-2">$230</p>
-            <ul className="mt-2 font-titleFont italic text-offWhite text-sm">
+            <ul className="mt-2 font-titleFont italic text-offWhite text-sm list-disc font-semibold">
               <li>
-                Pechuga de Pollo (Bandeja Grande) / Grilled Chicken Breast (Full
-                Pan)
+                Pechuga de Pollo (Bandeja Grande) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Grilled Chicken Breast (Full Pan){" "}
+                </span>
               </li>
-              <li>Congri (Bandeja Grande) / Congri (Full Pan)</li>
-              <li>Maduros (Bandeja Pequena) / Plantains (Half Pan)</li>
-              <li>Ensalada (Bandeja Pequena) / Salad (Half Pan)</li>
-              <li>25 Panecitos Cubanos / 25 Cuban Dinner Rolls</li>
+              <li>
+                Congri (Bandeja Grande) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Congri (Full Pan)
+                </span>
+              </li>
+              <li>
+                Maduros (Bandeja Pequena) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Plantains (Half Pan)
+                </span>
+              </li>
+              <li>
+                Ensalada (Bandeja Pequena) <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  Salad (Half Pan)
+                </span>
+              </li>
+              <li>
+                25 Panecitos Cubanos <br />
+                <span className="text-sm font-normal italic">
+                  {" "}
+                  25 Cuban Dinner Rolls{" "}
+                </span>
+              </li>
             </ul>
           </div>
         </div>
@@ -174,8 +279,8 @@ const Menu = () => {
             </h3>
             <h2 className="text-xl font-bodyFont text-offWhite">Pork Chunks</h2>
             <ul className="mt-2 font-titleFont italic text-offWhite text-sm">
-              <li>Bandeja Pequena / Half Pan $50</li>
-              <li>Bandeja Grande / Full Pan $95</li>
+              <li>Bandeja Pequena / Half Pan $75</li>
+              <li>Bandeja Grande / Full Pan $145</li>
             </ul>
           </div>
 
@@ -227,7 +332,7 @@ const Menu = () => {
         />
 
         {/* Sides Menu Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4 pb-4">
           {/* Column 1 */}
           <div className="px-6">
             <h3 className="text-3xl font-bodyFont text-offWhite">Congri</h3>
@@ -314,8 +419,9 @@ const Menu = () => {
               Yellow Rice with Chicken
             </h2>
             <ul className="mt-2 font-titleFont italic text-offWhite text-sm">
-              <li>Bandeja Pequena / Half Pan $65</li>
-              <li>Bandeja Grande / Full Pan $125</li>
+              <li>Bandeja Pequena / Half Pan $45</li>
+              <li>Bandeja Grande / Full Pan $85</li>
+              <li>**Sin Hueso / Boneless + $15 / $30</li>
             </ul>
           </div>
         </div>
@@ -330,7 +436,7 @@ const Menu = () => {
         />
 
         {/* Sides Menu Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-4 ">
           {/* Column 1 */}
           <div className="px-6">
             <h3 className="text-3xl font-bodyFont text-offWhite">Maduros</h3>
@@ -372,7 +478,7 @@ const Menu = () => {
               Ensalada Caesar
             </h3>
             <h2 className="text-xl font-bodyFont text-offWhite">
-              Caeser Salada
+              Caeser Salad
             </h2>
             <ul className="mt-2 font-titleFont italic text-offWhite text-sm">
               <li>Bandeja Pequena / Half Pan $20</li>
