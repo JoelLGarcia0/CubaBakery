@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 export default {
-  siteUrl: "https://cubabakery.com",
+  siteUrl: "https://www.cubabakery.com",
   generateRobotsTxt: true,
 };
