@@ -9,6 +9,18 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      // Force apex domain to www for canonical consistency
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "cubabakery.com",
+          },
+        ],
+        destination: "https://www.cubabakery.com/:path*",
+        permanent: true,
+      },
     ];
   },
 };

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://cubabakery.com
+Host: https://www.cubabakery.com
 
 # Sitemaps
-Sitemap: https://cubabakery.com/sitemap.xml
+Sitemap: https://www.cubabakery.com/sitemap.xml

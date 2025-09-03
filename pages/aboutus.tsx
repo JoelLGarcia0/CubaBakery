@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "next/head";
+import SEO from "@/components/SEO";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Owner from "@/components/Owner";
@@ -7,15 +7,12 @@ import Owner from "@/components/Owner";
 const aboutus = () => {
   return (
     <>
-      <Head>
-        <title>Cuba Bakery | About Us</title>
-        <meta
-          name="description"
-          content="Learn about Cuba Bakery, Homestead's favorite spot for authentic Cuban pastries, sandwiches, coffee, and more. Discover our story and meet the team behind our delicious treats."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logo.ico" />
-      </Head>
+      <SEO
+        title="Cuba Bakery | About Us"
+        description="Learn about Cuba Bakery, Homestead's favorite spot for authentic Cuban pastries, sandwiches, coffee, and more. Discover our story and meet the team behind our delicious treats."
+        canonical="https://www.cubabakery.com/aboutus"
+        openGraphImageUrl="https://www.cubabakery.com/assets/images/Slide3.png"
+      />
       <div className="flex flex-col min-h-screen">
         <NavBar />
         <main className="flex-grow">

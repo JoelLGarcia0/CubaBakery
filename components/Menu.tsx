@@ -1,4 +1,4 @@
-import { line, menubg } from "@/public/assests";
+import { line, menubg } from "@/public/assets";
 import Image from "next/image";
 import React from "react";
 

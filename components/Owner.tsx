@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { german } from "@/public/assests";
+import { german } from "@/public/assets";
 
 const Owner = () => {
   return (
