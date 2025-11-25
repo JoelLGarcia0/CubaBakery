@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
 
-const menu = () => {
+const MenuPage = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
@@ -70,4 +70,4 @@ const menu = () => {
   );
 };
 
-export default menu;
+export default MenuPage;
