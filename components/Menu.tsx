@@ -9,7 +9,7 @@ const Menu = () => {
       className="relative w-full min-h-screen flex items-center justify-center text-white"
     >
       {/* Background Image */}
-      <div className="absolute inset-0 w-full h-full">
+      <div className="fixed inset-0 w-full h-full z-0">
         <Image
           src={menubg}
           alt="Cuban Food"

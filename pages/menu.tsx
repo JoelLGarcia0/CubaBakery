@@ -34,13 +34,15 @@ const MenuPage = () => {
       />
       <div className="flex flex-col min-h-screen">
         <NavBar />
-        <main className="flex-grow">
+        <main className="flex-grow relative z-10">
           {/* container after NavBar */}
           <div className="w-full flex flex-col items-center pt-20">
             <Menu />
           </div>
         </main>
-        <Footer />
+        <div className="relative z-30 w-full">
+          <Footer />
+        </div>
       </div>
 
       {/* Scroll to Top Button */}
